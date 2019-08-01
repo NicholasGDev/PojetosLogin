@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_bg"
+    android:orientation="vertical"
+    tools:context=".CadastroActivity">
+
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/ic_android_white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/et_border"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_border"
+            android:hint="Email"
+            android:padding="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_border"
+            android:hint="Pssword"
+            android:padding="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_border"
+            android:hint="Confirm Pssword"
+            android:padding="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/botao_um"
+            android:text="Sign In"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textColor="#A66774" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Login In"
+            android:onClick="abrirLog"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:background="@drawable/botao_dois"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
