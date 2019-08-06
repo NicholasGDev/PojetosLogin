@@ -34,7 +34,8 @@
             android:textColor="#FFF"
             android:textColorHint="#FFF"
             android:textSize="20dp"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:inputType="textWebPassword"/>
         <Button
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
@@ -42,6 +43,17 @@
             android:text="Login"
             android:textAllCaps="false"
             android:background="@drawable/botao_tres"/>
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot your password"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+
+            />
     </LinearLayout>
+
 
 </LinearLayout>
